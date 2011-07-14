@@ -10,7 +10,7 @@ Usage
 
 add to Gemfile
 
-    gem 'rails_lsd'
+    gem 'lsd_rails'
     gem 'jsus'
     
 run
