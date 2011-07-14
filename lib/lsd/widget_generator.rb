@@ -8,7 +8,7 @@ class WidgetGenerator < Rails::Generators::Base
   
   def create_widget_file
     widgets_path = "public/javascripts/Source/Widget"
-    @widget_name = @widget_name.capitalize
+    @widget_name = @widget_name.classify
     @app_name = LSD.detect_project_name
     
     empty_directory(widgets_path)

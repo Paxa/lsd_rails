@@ -20,7 +20,15 @@ run
 Include sources using jsus helper (replace 'MyProject' as you need)
 
     <%= jsus_include "MyProject:*", :development => 'include', :production => 'compressed' %>
+
+Generators
+==========
+
+    rails g widget my_super_widget
     
+Deploy
+======
+
 If you run JSUS in production you should recreate symlinks by 
 
     rake lsd:relink_packages
