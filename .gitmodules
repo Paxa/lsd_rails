@@ -1,0 +1,12 @@
+[submodule "Packages/mootools-resource"]
+	path = Packages/mootools-resource
+	url = git://github.com/Inviz/mootools-resource.git
+[submodule "Packages/slick"]
+	path = Packages/slick
+	url = git://github.com/lovelyscalabledrawings/slick.git
+[submodule "Packages/mootools-history"]
+	path = Packages/mootools-history
+	url = git://github.com/Inviz/mootools-history.git
+[submodule "Packages/lsd-specs"]
+	path = Packages/lsd-specs
+	url = git://github.com/Inviz/lsd-specs.git

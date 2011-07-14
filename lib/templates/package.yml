@@ -1,0 +1,18 @@
+name: "<%= @app_name %>"
+
+version: "0.1"
+
+web: 'example.com'
+
+description: "write it here."
+
+license: "[MIT License](http://mootools.net/license.txt)"
+
+copyright: "&copy; [MooTools](http://mootools.net)"
+
+authors: ["Your name"]
+
+sources:
+  - "<%= @app_name %>.js"
+  - "Application.js"
+  - "Widget.js"
