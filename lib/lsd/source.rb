@@ -1,12 +1,4 @@
-require 'ostruct'
 require 'rails/generators'
-
-# ruby 1.9 fix
-class OpenStruct
-  def get_binding
-    return binding()
-  end
-end
 
 module LSD
   class Source < Rails::Generators::Base

@@ -10,8 +10,12 @@ namespace :lsd do
   task :setup => :environment do
     require 'lsd/source'
     require 'lsd/packages'
-        
+
     LSD::Packages.link_to_public
     LSD::Source.init_source_folder
+    
+    puts
+    puts "Include js in you views"
+    puts %{<%= jsus_include "#{LSD.detect_project_name}:*", :development => 'include', :production => 'compressed' %>}
   end
 end
