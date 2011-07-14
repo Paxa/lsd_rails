@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = "lsd_rails"
-  s.version           = "0.1"
+  s.version           = "0.1.1"
   s.summary           = "Applyng components for rails"
   s.description       = ""
   s.author            = "Pavel Evstigneev"
