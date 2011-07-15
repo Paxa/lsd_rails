@@ -13,7 +13,7 @@ module LSD
       FileUtils.mkdir_p(packages_folder)
       
       package_list.each do |package|
-        FileUtils.rm(packages_folder + package) if options[:recreate]
+        FileUtils.rm(packages_folder + package) if options[:recreate] && File.symlink?(packages_folder + package)
         if !File.exists?(packages_folder + package)
           FileUtils.ln_s(LSD.gem_folder + 'Packages' + package, packages_folder + package)
         else
